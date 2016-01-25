@@ -1,5 +1,4 @@
-
-$(document).ready(function(){
+$(document).ready(function() {
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
@@ -13,7 +12,7 @@ $(document).ready(function(){
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
       scrollTop: $(hash).offset().top
-    }, 900, function(){
+    }, 900, function() {
 
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
@@ -21,7 +20,7 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function() {
-    $(".slideanim").each(function(){
+    $(".slideanim").each(function() {
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
@@ -43,9 +42,9 @@ $('.grid').masonry({
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
   $('.bxslider').bxSlider({
-    speed:600,
+    speed: 600,
     auto: true,
     controls: true,
     pager: false
@@ -56,17 +55,17 @@ $(document).ready(function(){
 
 
 $(function() {
-    $( "input[type=submit], a, button" )
-      .button()
-      .click(function( event ) {
-        event.preventDefault();
-      });
-  });
+  $("input[type=submit], a, button")
+    .button()
+    .click(function(event) {
+      event.preventDefault();
+    });
+});
 
 
 function init_map1() {
   var myLocation = new google.maps.LatLng(48.868829, 2.337601);
-    mapOptions = {
+  mapOptions = {
     center: myLocation,
     zoom: 16
   };
