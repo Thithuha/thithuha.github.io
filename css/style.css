@@ -188,10 +188,6 @@ color: aquamarine;
 	
 }
 
-
-
-
-
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -313,14 +309,6 @@ color: aquamarine;
     opacity: 0;
 }
 
-
-
-
-
-
-
-
-
 .grid {
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
@@ -391,13 +379,6 @@ color: aquamarine;
 	top: 30px;
 }
 
-
-
-
-
-
-
-
 .well-sm{
 	
 	border-radius: 5px;
@@ -410,10 +391,6 @@ color: aquamarine;
 .text-center{
 	letter-spacing: 2px;
 }
-
-
-
-
 
  .panel-footer {
       background-color: white !important;
@@ -436,10 +413,9 @@ footer{
     color: #fafafa;
 }
 
-
-
-
-
+#copyright-sentence {
+    padding-top: 5em;
+}
 
 a {
  background-color: #D3D3D3;   
@@ -490,8 +466,6 @@ ul.social-network li {
     background-color: #22263D;
 }
 
-
-
 .social-network a.icoYouTube:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i,
 .social-network a.icoInstagram:hover i, .social-network a.icoSkype:hover i, .social-network a.icoEnvelope:hover i {
@@ -538,26 +512,6 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .map {
         min-width: 300px;
