@@ -88,6 +88,21 @@ h2 {
 .imgmeat {
   margin-left: 100px;
 }
+
+#myCarousel {
+  position: relative;
+  margin-top: 65px;
+}
+.jumbotron {
+  position: absolute;
+  top: 37%;
+  left: 0;
+  text-align: center;
+  z-index: 3000;
+}
+.carousel-control {
+    z-index: 4000;
+    }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%;
   margin-top: 60px
