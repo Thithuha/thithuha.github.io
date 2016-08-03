@@ -1,21 +1,48 @@
 #logo {
-  width: 8%;
-  margin-bottom: 3px;
+  max-width:   50px;
+  max-height: 50px;
+  position: fixed;
 }
-nav {
-  width: 100%;
-  z-index: 100;
+
+#nav1
+{
+    background-color: whitesmoke;
+    border: none;
+    position:fixed;
+    width:100%;
+
 }
+
+#nav2
+{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+   background-color: aquamarine;
+}
+
+
+
 .row {
   margin-right: 0px;
 }
 .jumbotron {
   color: whitesmoke;
 }
-#section1 {}
+
+
+#jumbotron {
+background-image: url(/img/heaven%20.jpg);
+background-size: cover;
+height: 100%;}
+
+
 body {
   background-image: url(../img/shattered.png)
 }
+
 
 /* Nav */
 
@@ -37,6 +64,7 @@ body {
 .navbar {
   text-transform: uppercase;
   font-weight: 300;
+  z-index: 5000;
 }
 
 /* Headers */
@@ -98,14 +126,16 @@ h2 {
   top: 37%;
   left: 0;
   text-align: center;
-  z-index: 3000;
+  z-index: 100;
+  margin-top: 40px !important;
+  height: 250px !important;
 }
 .carousel-control {
     z-index: 4000;
     }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%;
-  margin-top: 60px
+  margin-top: 0px
 }
 .carousel-indicators {
   margin-bottom: 50px;
@@ -114,9 +144,8 @@ h2 {
   background-color: black;
 }
 .bg-1 {
-  background-image: url(../img/exclusive_paper.png);
+  background-image: url(../img/geometry.png);
   color: black;
-  height: 700px;
 }
 .bg-2 {
   background-color: #474e5d;
@@ -133,13 +162,13 @@ h2 {
   margin-bottom: 10px;
 }
 .col-lg-12 {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 /* Portfolio */
 
 .portfolio {
-  padding: 50px 0;
+
 }
 .portfolio-item {
   margin-bottom: 30px;
@@ -161,10 +190,20 @@ h2 {
 }
 .btn-dark {
   color: aquamarine;
+  text-align: center;
 }
 .btn-lg {
-  margin-bottom: 30px;
-}
+  margin-bottom: 50px;
+  padding: 10px 12px;
+  background-color: transparent; 
+  }
+
+.btn-default{
+    color: grey;
+    text-align: inherit;
+  }
+
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -185,6 +224,11 @@ h2 {
   -moz-transition: all ease .5s;
   transition: all ease .5s;
 }
+
+.caption{
+    
+}
+
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
@@ -336,6 +380,7 @@ h2 {
 }
 .text-center {
   letter-spacing: 2px;
+
 }
 .panel-footer {
   background-color: white !important;
@@ -344,9 +389,10 @@ h2 {
   font-size: 32px;
 }
 .glyphicon {
-  font-size: 40px;
-  margin-bottom: 20px;
+
   color: palevioletred;
+  
+  
 }
 footer {
   background-image: url(../img/dark_mosaic.png);
@@ -356,9 +402,6 @@ footer {
 }
 #copyright-sentence {
   padding-top: 4.5em;
-}
-a {
-  background-color: #D3D3D3;
 }
 
 /* Footer */
@@ -454,9 +497,18 @@ a.socialIcon:hover, .socialHoverClass {
   border: 1px solid black;
   position: relative;
 }
+
+#gps{
+    padding-bottom: 136px;
+}
+
+#map1{
+    width: 100%;
+}
 .panel-body {
   color: #333;
+
 }
-a {
-  background-color: white;
+footer a {
+    background-color: white;
 }
