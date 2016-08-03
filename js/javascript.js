@@ -39,21 +39,6 @@ $('.grid').masonry({
 });
 
 
-
-
-
-$(document).ready(function() {
-  $('.bxslider').bxSlider({
-    speed: 600,
-    auto: true,
-    controls: true,
-    pager: false
-
-  });
-});
-
-
-
 $(function() {
   $("input[type=submit], a, button")
     .button()
@@ -76,3 +61,5 @@ function init_map1() {
   var map = new google.maps.Map(document.getElementById("map1"), mapOptions);
   marker.setMap(map);
 }
+
+
