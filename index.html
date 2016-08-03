@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>	
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>ChloeNguyen</title>
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+  <link rel="stylesheet" href="css/baguetteBox.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="js/jquery.bxslider.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="/path/to/masonry.pkgd.min.js"></script>
   <script type="text/javascript" src="js/javascript.js"></script>
   <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
   <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -20,54 +21,48 @@
   <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
 
 
+	
 </head>
 
-<body id="page-top" class="index">
+<body>
+  <header>
+            <nav id="nav1" class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a id="nav2" class="navbar-brand" href="#totop"><img src="img/Sans%20titre-1%20copie.png" id="logo" href="totop"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a class="js-scrollTo" href="#about-me">About Me</a></li>
+                    <li><a class="js-scrollTo" href="#portfolio">Portfolio</a></li>
+                    <li><a class="js-scrollTo" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+  </header>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-         <a class="navbar-brand" href="http://127.0.0.1:5050/#section1">
-          <img src="img/logo.png" id="logo">
-          <a href="#totop"></a>
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
 
-        </ul>
-      </div>
-    </div>
-  </nav>
+
 
   <section id="section1">
     <div class="container-fluid bg-3">
       <div class="row">
         <div class="col-md-12" id="column">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-            <div class="jumbotron col-md-12">
-              <div class="container" id="jumbo">
-                <h1>Welcome !</h1>
-                <p>Design is a funny word. Some people think design means how it looks.
-                  <br> But of course, if you dig deeper, it's really how it works.</p>
-              </div>
-            </div>
+            
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
-              <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
+			  	  	  
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -81,36 +76,37 @@
             <div class="container-fluid bg-3">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="img/lope.jpg" alt="Chania">
+                  <img src="img/grispy.png" alt="Chania">
                 </div>
                 <div class="item">
-                  <img src="img/ly.jpg" alt="Flower">
+                  <img src="img/heaven%20.jpg" alt="Flower">
                 </div>
 				  <div class="item">
-                  <img src="img/me1.gif" alt="This">
+                  <img src="img/branchpattern.jpg" alt="This">
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
       </div>
   </section>
 
   <section id="section-2">
     <div class="container-fluid bg-1 text-center">
+	  <div class="row" style="height: 800px;">
+	  <div class="col-md-7" style="margin-top: 100px;">
       <h3 id="about-me"><strong></strong>Who Am I?</strong></h3>
-      <img src="img/meatnat%20copy.png" class="img-responsive img-circle" style="display:inline; padding: 40px !important;" alt="Feather" width="350" height="350">
-      <h3><strong></strong>DESIGNER - DEVELOPER</strong></h3>
-      <div class="row">
-        <div class="col-md-12 text-center">
+      <img src="img/meatnat%20copy.png" class="img-responsive img-circle" style="display:inline; padding: 50px !important;" alt="Feather" width="350" height="350">
+		</div>
+        <div class="col-md-5" text-center style="margin-top: 220px;">
+			      <h3><strong></strong>DESIGNER - DEVELOPER</strong></h3>
           <p> Thi Thu Ha NGUYEN. I am a graphic-web designer as well as a student at IESA Multimedia Paris
             <br> I was born in VietNam then raised up in Sydney, that how i have been shaped my vision about multicultural way of life
             <br> Recently, I am working on both personal and commissioned projects in Paris, where i have been taken all my inspiration lately.
 
             <br>So please feel free to contact me!</p>
-          <a href="https://indd.adobe.com/view/4b956379-9baf-4b1b-b10f-ad31ec934c81" class="btn btn-default btn-lg">My CV </a>
-          <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+          <a href="https://indd.adobe.com/view/4b956379-9baf-4b1b-b10f-ad31ec934c81" class="btn btn-default btn-lg">My CV<span class="glyphicon glyphicon-heart" aria-hidden="true"></span> </a>
         </div>
       </div>
     </div>
@@ -118,95 +114,76 @@
 
 
   <!-- Portfolio Grid Section -->
-  <section id="portfolio">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Portfolio</h2>
-          <hr class="star-primary">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 portfolio-item">
-          <a href="#prtfolioModal1" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
-                <span class="sr-only">Error:</span>
-              </div>
-            </div>
-            <img src="img/dino.jpg" class="img-responsive" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#aboutme" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
-                <span class="sr-only">Error:</span>
-              </div>
-            </div>
-            <img src="img/card.jpg" class="img-responsive" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
-                <span class="sr-only">Error:</span>
-              </div>
-            </div>
-            <img src="img/kevin.jpg" class="img-responsive" alt="">
-          </a>
-        </div>
+<style>
 
 
-        <div class="row">
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
-                  <span class="sr-only">Error:</span>
-                </div>
-              </div>
-              <img src="img/material.jpg" class="img-responsive" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
-                  <span class="sr-only">Error:</span>
-                </div>
-              </div>
-              <img src="img/streettook.jpg" class="img-responsive" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
-                  <span class="sr-only">Error:</span>
-                </div>
-              </div>
-              <img src="img/mountain.jpg" class="img-responsive" alt="">
-            </a>
-          </div>
-        </div>
-        <a href="#" class="btn btn-dark">Back to homepage</a>
-      </div>
+
+
+h1, h2, h3, .gallery {
+    text-align: center;
+}
+
+pre {
+    width: 340px;
+    margin: 0 auto;
+    border: dashed 1px #aaa;
+    margin-bottom: 10px;
+}
+
+.content {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.gallery:after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .5em 0 1.4em;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gallery img {
+    height: 100%;
+}
+
+.gallery a {
+    width: 240px;
+    height: 180px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 6px;
+    box-shadow: 0 0 4px -1px #000;
+}
+
+/* Highlight.js Tomorrow Night style */
+.hljs-comment{color:#969896}.hljs-tag{color:#f8f8f2}.css .hljs-class,.css .hljs-id,.css .hljs-pseudo,.hljs-attribute,.hljs-regexp,.hljs-title,.hljs-variable,.html .hljs-doctype,.ruby .hljs-constant,.xml .hljs-doctype,.xml .hljs-pi,.xml .hljs-tag .hljs-title{color:#c66}.hljs-built_in,.hljs-constant,.hljs-literal,.hljs-number,.hljs-params,.hljs-pragma,.hljs-preprocessor{color:#de935f}.css .hljs-rules .hljs-attribute,.ruby .hljs-class .hljs-title{color:#f0c674}.hljs-header,.hljs-inheritance,.hljs-string,.hljs-value,.ruby .hljs-symbol,.xml .hljs-cdata{color:#b5bd68}.css .hljs-hexcolor{color:#8abeb7}.coffeescript .hljs-title,.hljs-function,.javascript .hljs-title,.perl .hljs-sub,.python .hljs-decorator,.python .hljs-title,.ruby .hljs-function .hljs-title,.ruby .hljs-title .hljs-keyword{color:#81a2be}.hljs-keyword,.javascript .hljs-function{color:#b294bb}.hljs{display:block;overflow-x:auto;background:#35383C;color:#c5c8c6;padding:.8em}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .css,.xml .hljs-cdata,.xml .javascript,.xml .vbscript{opacity:.5}
+    </style>
+</head>
+	
+	<body>
+
+<div class="content">
+    <h2 id="portfolio">Sample gallery</h2>
+
+    <div class="baguetteBoxOne gallery" style="margin-top: 85px;">
+        <a href="img/newtech20.jpg" title="Golden Gate Bridge"><img src="img/newtech20.jpg"></a>
+        <a href="img/card.jpg" title="Midnight City"><img src="img/card.jpg"></a>
+        <a href="img/mountainthumb.png" title="Mountain double exposure spirit"><img src="img/mountain.jpg"></a>
+        <a href="img/streettook.jpg"><img src="img/streettook.jpg"></a>
+        <a href="img/Screencreation%20.jpg"><img src="img/Screencreation%20.jpg"></a>
+        <a href="img/carribean.jpg"><img src="img/carribean.jpg"></a>
+        <a href="img/grootxel.jpg"><img src="img/GRoot.jpg"></a>
+        <a href="img/delightprod.png"><img src="img/delightprod.png"></a>
+		<a href="img/newtech2.jpg"><img src="img/newtech2.jpg"></a>
+        <a href="img/mockupcartevisite.jpg"><img src="img/mockupcartevisite.jpg"></a>
+        <a href="img/moodboard1.jpg" title="Mood board en version Monochrome for web"><img src="img/moodboard1.jpg"></a>
+        <a href="img/Affiche%20createur.jpg" title="Poster for an exhibition"><img src="img/Affiche%20createur.jpg"></a>
     </div>
-  </section>
-
-
-
 
   <!-- Contact section -->
-  <div id="contact" class="container-fluid">
+  <div id="contact" class="container-fluid text-center">
     <br>
     <br>
     <br>
@@ -215,7 +192,7 @@
   </div>
 
   <div class="container">
-    <div class="row">
+    <div id="gps" class="row">
       <div class="col-md-6">
         <div class="well well-sm">
           <form class="form-horizontal" method="post">
@@ -308,6 +285,33 @@
     </div>
     </div>
   </footer>
-</body>
 
+ <script src="js/baguetteBox.js" async></script>
+<script src="js/plugins.js" async></script>
+<!--[if lt IE 9]>
+<script>
+var oldIE = true;
+</script>
+<![endif]-->
+<script>
+window.onload = function() {
+    if(typeof oldIE === 'undefined' && Object.keys)
+        hljs.initHighlighting();
+
+    baguetteBox.run('.baguetteBoxOne');
+    baguetteBox.run('.baguetteBoxTwo');
+    baguetteBox.run('.baguetteBoxThree', {
+        animation: 'fadeIn'
+    });
+    baguetteBox.run('.baguetteBoxFour', {
+        buttons: false
+    });
+    baguetteBox.run('.baguetteBoxFive', {
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+        }
+    });
+};
+</script>
+</body>
 </html>
