@@ -28,7 +28,7 @@ header {
   top: 0%;
   left: 50%;
   transform: translate(-50%);
-  cursor: url(../img/souris.svg) 0 0,auto;
+  cursor: url(./img/souris.svg) 0 0,auto;
 }
 
 .logo {
@@ -42,7 +42,7 @@ header {
 }
 
 .logo a{
-  cursor: url(../img/souris.svg) 0 0,auto;
+  cursor: url(./img/souris.svg) 0 0,auto;
 }
 
 }
