@@ -6,4 +6,4 @@ Hello! feel free to contribute at my first official web project .
 
 
 
-TTHN - copyright - 2016. 
+ChloeNguyen - copyright - 2018. 
