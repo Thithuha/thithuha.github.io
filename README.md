@@ -6,4 +6,4 @@ Hello! feel free to contribute at my first official web project .
 
 
 
-ChloeNguyen - copyright - 2018. 
+ChloeNguyen - copyright - 2020. 
